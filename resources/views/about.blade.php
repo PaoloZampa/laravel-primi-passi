@@ -1,6 +1,3 @@
-<!doctype html>
-<html lang="en">
-
 <head>
   <title>Title</title>
   <!-- Required meta tags -->
@@ -25,9 +22,9 @@
 </header>
 
   <main>
-    <h1>Nome: {{ $name }}</h1>
-    <h1>Cognome: {{ $surname }}</h1>
-    <h1>Età: {{ $age }}</h1>
+    <h1>{{ $producer }}</h1>
+    <h2>{{ $agency }}</h2>
+    <p>{{ $description }}</p>
   </main>
 
   <!-- Bootstrap JavaScript Libraries -->

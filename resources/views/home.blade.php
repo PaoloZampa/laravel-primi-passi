@@ -16,7 +16,9 @@
 <body>
 
   <main>
-     HELLO WORLD
+    <h1>Nome: {{ $name }}</h1>
+    <h1>Cognome: {{ $surname }}</h1>
+    <h1>Età: {{ $age }}</h1>
   </main>
 
   <!-- Bootstrap JavaScript Libraries -->

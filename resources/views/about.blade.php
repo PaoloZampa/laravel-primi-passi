@@ -1,3 +1,6 @@
+<!doctype html>
+<html lang="en">
+
 <head>
   <title>Title</title>
   <!-- Required meta tags -->
@@ -22,7 +25,7 @@
 </header>
 
   <main>
-    <h1>{{ $producer }}</h1>
+    <h1 class="text-center ">{{ $producer }}</h1>
     <h2>{{ $agency }}</h2>
     <p>{{ $description }}</p>
   </main>
